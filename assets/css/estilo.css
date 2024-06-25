@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+}
+.contenedor{
+    background-color: #2A3A40;
+}
+footer{
+    height: auto;
+    background-color:#274303;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    clear: both;
+    width: 100%;
+   
+}
+.menu{
+    width: 100%;
+    background-color:#736939;
+    padding: 30px;
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 5em;
+    color: rgb(0, 172, 126);
+    border-style:solid;
+    border-radius: 20px;
+    background-color:#0e947c;
+}
+.centro{
+    color: #9da17de2;
+}
+.centro>h1,p,.family{
+    text-align: center;
+}
+.contenedor>h1,p,h2,.redes,.comentarios,form,.titulo,.texto{
+    text-align: center;
+}
+.izquierda{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 60%;
+    margin:1%;
+    padding: 10px;
+    float: left;
+    background-color: #8DA1A6;
+    border-style:solid;
+    border-color:#2A3A40;
+    border-radius: 10px;
+}
+.fotoyo{
+    float: left;
+}
+.fotogafas{
+    justify-content: flex-start;
+    float: left;
+}
+.derecha{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 30%;
+    margin:1%;
+    padding: 10px;
+    float: left;
+    background-color: #8DA1A6;
+    border-style:solid;
+    border-color:#2A3A40;
+    border-radius: 10px;
+    
+}
+.titulo{
+    background-color: #0D0D0D;
+    border-style: solid;
+  
+}
+.texto{
+    background-color: rgb(47, 87, 87);
+}
+table{
+    border:2px; 
+    width:600px;
+}
+.tabla{
+    float: left;
+   margin-left: 33%;
+   background-color: rgb(22, 117, 81);
+}
+.comentarios{
+color: rgb(84, 135, 126);
+}
+h1, h2, td,tr {
+    color:#9da17de2;
+}
+body,td,tr {
+    background-color: #0D0D0D;
+    font-family: "Oswald", sans-serif;}
+
+
+.madre,.hermana{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border-style: solid;
+    border-color: black ;
+    border-radius: 10px;
+    background-color: #8DA1A6 ;
+}
+.luz,.allison{
+    border-radius: 205px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+.family{
+    display: grid;
+    place-items: center;
+}
+.presentacion{
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    width: 560px; 
+    height:315px;
+}
